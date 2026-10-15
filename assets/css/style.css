@@ -160,6 +160,7 @@ p { margin: 0; }
 .ph { position: absolute; margin: 0; border-radius: var(--r-lg); overflow: hidden; box-shadow: var(--sh-3); background: var(--tint); }
 .ph img { width: 100%; height: 100%; object-fit: cover; }
 .ph--main { inset: 0 14% 6% 10%; }
+.ph--main img { object-position: 50% 12%; }
 .ph--b { width: 34%; aspect-ratio: 3/4; left: 0; bottom: 0; border: 6px solid var(--surface); }
 .ph--c { width: 30%; aspect-ratio: 3/4; right: 0; top: 10%; border: 6px solid var(--surface); }
 .hero__tag {
