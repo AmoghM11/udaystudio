@@ -151,10 +151,6 @@ p { margin: 0; }
 .hero__grid { display: grid; grid-template-columns: 1.05fr 1fr; gap: clamp(32px, 5vw, 72px); align-items: center; }
 .hero__copy { display: flex; flex-direction: column; align-items: flex-start; gap: 24px; position: relative; z-index: 2; }
 .hero__cta { display: flex; flex-wrap: wrap; gap: 12px; }
-.ratings { list-style: none; margin: 4px 0 0; padding: 0; display: flex; flex-wrap: wrap; gap: 10px 24px; }
-.ratings li { display: flex; align-items: center; gap: 8px; font-size: .9rem; color: var(--muted); }
-.ratings svg { color: var(--sun); fill: var(--sun); stroke: none; width: 18px; height: 18px; }
-.ratings b { color: var(--ink); font-size: 1.05rem; font-variant-numeric: tabular-nums; }
 
 .hero__stage { position: relative; height: min(78vh, 680px); min-height: 460px; }
 .ph { position: absolute; margin: 0; border-radius: var(--r-lg); overflow: hidden; box-shadow: var(--sh-3); background: var(--tint); }
